@@ -1,0 +1,52 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+.book-container {
+  display: flex;
+  align-items: flex-start; 
+  padding: 20px; 
+  max-width: 1050px; 
+  width: 100%; 
+}
+
+.book-cover img {
+  margin-top: 25%;
+  max-width: 100%; 
+  height: auto; 
+  margin-right: 20px;
+}
+.book-cover img:hover {
+  transition: transform 0.3s ease; 
+  transform: scale(1.1);
+}
+
+.book-title {
+  flex: 1;
+}
+
+.book-description {
+  text-align: justify;
+}
+
+.book-stars{
+  height:  20px
+}
+
+.book-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.book-meta span {
+  display: inline-flex;
+  margin-bottom: 5px;
+  
+}
